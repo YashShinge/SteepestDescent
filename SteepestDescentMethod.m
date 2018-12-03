@@ -94,13 +94,5 @@ for m=1:M
     fprintf("Error at node %d = %f\n",m,E(m))
   MSE=MSE+E(m);
 end
+
 fprintf("\nMean Square Error of the network =%f\n", MSE)
-
-
-
-
-
-
-
-
-
